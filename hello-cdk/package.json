@@ -1,0 +1,24 @@
+{
+  "name": "hello-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "hello-cdk": "bin/hello-cdk.js"
+  },
+  "scripts": {
+    "test": "tsc",
+    "test:watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "8.10.45",
+    "typescript": "^3.3.3333",
+    "aws-cdk": "^0.34.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-ec2": "^0.34.0",
+    "@aws-cdk/aws-s3": "^0.34.0",
+    "@aws-cdk/aws-sns": "^0.34.0",
+    "@aws-cdk/cdk": "^0.34.0",
+    "source-map-support": "^0.5.9"
+  }
+}
